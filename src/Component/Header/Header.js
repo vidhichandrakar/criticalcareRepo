@@ -7,10 +7,20 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
+import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
+import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import Logo from "../../Media/Images/Logo.png";
-
+import InputLabel from "@mui/material/InputLabel";
+import FormControl from "@mui/material/FormControl";
+import Select from "@mui/material/Select";
+import { styled, alpha } from "@mui/material/styles";
+import EditIcon from "@mui/icons-material/Edit";
+import Divider from "@mui/material/Divider";
+import ArchiveIcon from "@mui/icons-material/Archive";
+import FileCopyIcon from "@mui/icons-material/FileCopy";
+import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import DropDown from "./NestedMenu";
 import { Link } from "react-router-dom";
@@ -37,7 +47,7 @@ function Header() {
     <AppBar position="static" className="AppHeader">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+          <Box sx={{  display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -65,6 +75,7 @@ function Header() {
               sx={{
                 display: { xs: "block", md: "none" },
               }}
+              className="menuSize"
             >
               <MenuItem
                 key={1}
@@ -77,15 +88,12 @@ function Header() {
                 key={1}
                 onClick={handleCloseNavMenu}
                 style={{ fontFamily: "Inter !important" }}
-              >
+              > 
                 <Link to="/About-us" style={{ color: 'inherit', textDecoration: 'none'}}> 
                   <Typography
                     textAlign="center"
-                    style={{
-                      color: "#000",
-                      fontFamily: "Inter !important",
-                      fontWeight: "600 !important",
-                    }}
+                    
+                    className="menuText"
                   >
                     About Us
                   </Typography>
@@ -100,11 +108,7 @@ function Header() {
                   {" "}
                   <Typography
                     textAlign="center"
-                    style={{
-                      color: "#000",
-                      fontFamily: "Inter !important",
-                      fontWeight: "600 !important",
-                    }}
+                    className="menuText"
                   >
                     Contact Us
                   </Typography>

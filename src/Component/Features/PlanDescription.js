@@ -27,13 +27,14 @@ const PlanDescription = ({}) => {
           </Box>
           <Box className="liveScnd">
             <Typography className="liveText">
-            Enhance your learning experience with live and scheduled lectures.
-
+              Live / Scheduled Lectures
             </Typography>
             <Typography className="liveTextScnd">
-            Optimize your learning journey by engaging in live sessions or scheduled lectures,
-             tailored to enrich your educational experience.
-
+              Learning is an important step for achieving dreams in a student's
+              journey. We encourage the student to explore the concept in depth
+              instead of memorizing. The live lectures help us in learning the
+              needs of the students and motivates the students to be creative
+              and be passionate learners.
             </Typography>
           </Box>
         </Box>
@@ -49,9 +50,10 @@ const PlanDescription = ({}) => {
               Live Doubt Solving Sessions
             </Typography>
             <Typography className="liveTextScnd">
-            Interactive online sessions where students ask questions and discuss study
-            uncertainties with instructors for immediate clarification and understanding.
-
+              At 360 Critical Care we always encourage students to ask
+              questions. We have created an atmosphere where students don t
+              hesitate to ask their doubts. We firmly believe in More you ask,
+              the more you learn.
             </Typography>
           </Box>
           <Box className="liveFirst">
@@ -70,13 +72,11 @@ const PlanDescription = ({}) => {
           </Box>
           <Box className="liveScnd">
             <Typography className="liveText">
-            Access structured and focused study materials
-
+              Structured And Targeted Study Material
             </Typography>
             <Typography className="liveTextScnd">
-            Comprehensive study materials meticulously designed to provide a 
-            structured and targeted approach, empowering you to achieve academic success with confidence and clarity.
-
+              Explore the art of concept with our structured material with
+              intelligent question tackling and problem solving skills.
             </Typography>
           </Box>
         </Box>
@@ -89,13 +89,14 @@ const PlanDescription = ({}) => {
         <Box class="liveBox liveBoxrev">
           <Box className="liveScnd">
             <Typography className="liveText">
-            Track your progress through regular evaluation
-
+              Tests On Regular Basis For Progress Tracking
             </Typography>
             <Typography className="liveTextScnd">
-            Continuously gauge your advancement through consistent exam simulation,
-             ensuring ongoing enhancement and growth in your learning journey.
-
+              It is a set of test papers designed to make the student
+              comfortable with all possible varieties of questions along with
+              the various ways in which the same question can be put in order to
+              make the student sweat in the exam hall.The problems involve
+              multi-dimensional thinking at a time.
             </Typography>
           </Box>
           <Box className="liveFirst">

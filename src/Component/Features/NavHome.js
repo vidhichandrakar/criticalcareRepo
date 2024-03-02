@@ -23,7 +23,7 @@ const NavHome =()=>{
     </div>
     <div className="cardHome">
      <div className="leftDesign">
-      <p className="leftTextDesign">THE MOST <span style={{color:"#0075FF"}}>TRUSTED</span> PLATFORM IN CRITICAL CARE</p>
+      <p className="leftTextDesign">THE MOST <span style={{color:"#0075FF"}}>AFFORDABLE</span> LEARNING PLATFORM</p>
       <p className="leftSubDesign">Learning from our best faculty</p>
       <TextField
         id="input-with-icon-textfield"
