@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.45cdaddd.css",
+    "main.js": "/react-gh-pages/static/js/main.ecd2192a.js",
+    "static/js/453.30981fd6.chunk.js": "/react-gh-pages/static/js/453.30981fd6.chunk.js",
+    "static/media/description.png": "/react-gh-pages/static/media/description.941325776d756f978bac.png",
+    "static/media/Header_wallpaper.png": "/react-gh-pages/static/media/Header_wallpaper.d69b6e1c47c75a4fa19c.png",
+    "static/media/Live Scheduled Lectures.svg": "/react-gh-pages/static/media/Live Scheduled Lectures.f973fdcd61b433813759f2b026c1db50.svg",
+    "static/media/home_top_img2.png": "/react-gh-pages/static/media/home_top_img2.057a1f7bc37032f90a7e.png",
+    "static/media/IMG-20240211-WA0012.jpg": "/react-gh-pages/static/media/IMG-20240211-WA0012.0da51fa2e2af29150954.jpg",
+    "static/media/IMG-20240209-WA0022.jpg": "/react-gh-pages/static/media/IMG-20240209-WA0022.46ba4d55028e7b7ec7d4.jpg",
+    "static/media/IMG-20240207-WA0036.jpg": "/react-gh-pages/static/media/IMG-20240207-WA0036.9975bf97f7c68e2286ab.jpg",
+    "static/media/IMG-20240211-WA0014.jpg": "/react-gh-pages/static/media/IMG-20240211-WA0014.3e3ba6d1c0cea3c1e240.jpg",
+    "static/media/1695704271-result-neet-banner-web (1).jpg": "/react-gh-pages/static/media/1695704271-result-neet-banner-web (1).521eed4234b3842f2bea.jpg",
+    "static/media/Group.png": "/react-gh-pages/static/media/Group.73da09b1b5f996585339.png",
+    "static/media/Logo.png": "/react-gh-pages/static/media/Logo.05d8ae60343f8e546e49.png",
+    "static/media/App_Logo.jpg": "/react-gh-pages/static/media/App_Logo.0ed67c291e049cce0e57.jpg",
+    "static/media/Google_logo.png": "/react-gh-pages/static/media/Google_logo.908050ef02ca97b23c82.png",
+    "static/media/dotted-line-1.svg": "/react-gh-pages/static/media/dotted-line-1.86da0256fbfbc26c86ce3b70f54018f3.svg",
+    "static/media/dotted-line-2.svg": "/react-gh-pages/static/media/dotted-line-2.f841ec28e3555c3df01016fcc47b7029.svg",
+    "static/media/fblogo.PNG": "/react-gh-pages/static/media/fblogo.4cfa31aba14b2251cd53.PNG",
+    "static/media/logo.svg": "/react-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.45cdaddd.css.map": "/react-gh-pages/static/css/main.45cdaddd.css.map",
+    "main.ecd2192a.js.map": "/react-gh-pages/static/js/main.ecd2192a.js.map",
+    "453.30981fd6.chunk.js.map": "/react-gh-pages/static/js/453.30981fd6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45cdaddd.css",
+    "static/js/main.ecd2192a.js"
+  ]
+}
