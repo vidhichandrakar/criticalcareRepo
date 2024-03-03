@@ -21,11 +21,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.BottomRow {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 .col {
   display: flex;
   flex-direction: row;
@@ -206,10 +201,5 @@ Link .text-decoraction-none {
   }
 }
 @media (max-width: 540px) {
- .BottomRow{
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  font-size: 1.8rem;
- }
+ 
 }
