@@ -88,7 +88,7 @@ function Header() {
                 key={1}
                 onClick={handleCloseNavMenu}
                 style={{ fontFamily: "Inter !important" }}
-              >
+              > 
                 <Link to="/About-us" style={{ color: 'inherit', textDecoration: 'none'}}> 
                   <Typography
                     textAlign="center"
