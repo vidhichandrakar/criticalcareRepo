@@ -10,19 +10,19 @@ const Analytics = ({}) => {
       {/* <Typography className="subTypo">With 360 Critcial care, Begin your journey to success</Typography> */}
       <Box className="analyticsCount">
         <div>
-          <p className="calCount">10M+</p>
+          <p className="calCount">1000+</p>
           <p className="calMsg">Happy Students</p>
         </div>
         <div>
-          <p className="calCount">300+</p>
+          <p className="calCount">100+</p>
           <p className="calMsg">Video Lectures</p>
         </div>
         <div>
-          <p className="calCount">200+</p>
+          <p className="calCount">150+</p>
           <p className="calMsg">Mock test</p>
         </div>
         <div>
-          <p className="calCount">2500+</p>
+          <p className="calCount">10000+</p>
           <p className="calMsg">Questions </p>
         </div>
       </Box>
