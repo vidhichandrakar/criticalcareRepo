@@ -656,7 +656,7 @@ font-size: 1.3em !important;
   }
   .liveTextScnd {
     margin-top: 3% !important;
-    font-size: 2rem !important;
+    font-size: 2.1rem !important;
     color: #000000a8;
 }
 .leftTextDesign {
@@ -667,7 +667,7 @@ font-size: 1.3em !important;
   height: 60vh !important;
 }
 .center p {
-  font-size: 2.2rem !important;
+  font-size: 2.3rem !important;
 }
   .liveBoxrev {
     flex-direction: column-reverse;
