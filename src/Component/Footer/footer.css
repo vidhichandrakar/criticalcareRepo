@@ -67,7 +67,7 @@ ul {
   list-style: none;
 }
 .footer {
-  background-color:  #795548;
+  background-color:  black;
   padding: 70px 0;
 }
 .footer-col {
@@ -285,4 +285,41 @@ Link .text-decoraction-none {
   width: 40%;
   margin-left: 30%;
 }
+.cardBox {
+  min-width: 60%;
+  margin-left: -2%;
+}
+.subCatBox {
+  margin-top: 3%;
+  margin-left: 5%;
+  width: 43%;
+  min-width: 31% !important;
+  height: 42%;
+}
+.catHeading {
+  font-size: 3em !important;
+}
+.cardHome {
+  width: 96% !important;
+  padding: 3%;
+  box-shadow: 0px 0px 0px 3px #d3d3d3 !important;
+  margin-top: 10%;
+}
+.css-2ehmn7-MuiInputBase-root-MuiOutlinedInput-root{
+  font-size: 2rem !important;
+}
+.phoneTextFieldStartIcon{
+  margin-top: 16% !important; 
+}
+.phoneTextField {
+  width: 95%;
+  margin-top: 2% !important;
+}
+.ReponsiveLogo{
+  width: 30% !important;
+}
+.ShowButton{
+  display: block;
+}
+
 }

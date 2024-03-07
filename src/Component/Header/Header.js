@@ -44,7 +44,7 @@ function Header() {
   };
 
   return (
-    <AppBar position="static" className="AppHeader">
+    <AppBar position="fixed" className="AppHeader">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{  display: { xs: "flex", md: "none" } }}>

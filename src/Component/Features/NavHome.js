@@ -39,8 +39,8 @@ const NavHome = () => {
             }}
           />
           <div className="storeLogo">
-            <img src={AppLogo} className="appLogo" />
-            <img src={GoogleLogo} className="googleLogo" />
+            <img src={AppLogo} className="appLogo ReponsiveLogo" />
+            <img src={GoogleLogo} className="googleLogo ReponsiveLogo" />
           </div>
         </div>
         <div className="divHomeImage">
