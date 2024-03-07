@@ -630,9 +630,11 @@ font-size: 1.3em !important;
     gap: 10px;
   }
   .cardHome {
-    width: 71% !important;
+    /* width: 71% !important; */
+    height: 70% !important;
+    /* 5/3  */
+    width: 84% !important;
     overflow: visible;
-    height: 60%;
     display: flex;
     margin: auto;
     background-color: white;
