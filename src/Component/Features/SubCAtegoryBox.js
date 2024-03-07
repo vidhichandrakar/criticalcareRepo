@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const SubCAtegoryBox = () => {
     const [show, SetShow] = useState(false);
@@ -14,7 +15,8 @@ const SubCAtegoryBox = () => {
         }
       }
     const CategoryData1 = [
-        {
+        {   
+            herf: '',
             head : "Top Long Course",
             Button: "Explore"
         },
@@ -23,14 +25,17 @@ const SubCAtegoryBox = () => {
             Button: "Explore"
         },
         {
+            herf: '/TopCourse',
             head : "Top Crash Course",
             Button: "Explore"
         },
         {
+            herf: '/EDIC',
             head : "EDIC 1",
             Button: "Explore"
         },
         {
+            herf: '/EDIC2',
             head : "EDIC 2",
             Button: "Explore"
         },
@@ -42,6 +47,7 @@ const SubCAtegoryBox = () => {
             Button: "Explore"
         },
         {
+            herf: '/IDCCM',
             head : "TRICS-IDCCM",
             Button: "Explore"
         },
@@ -67,10 +73,10 @@ const SubCAtegoryBox = () => {
        <>
        <div className="SubCategoryBox">
        {CategoryData1.map((value) => (
-            <div className="SubBox">
+           <Link to={value.herf}> <div className="SubBox">
                 <p><b>{value.head}</b></p>
                 <p className="ShowButton">{value.Button}</p>
-            </div>
+            </div></Link>
         ))}
        {show && CategoryData2.map((value) => (
             <div className="SubBox">
